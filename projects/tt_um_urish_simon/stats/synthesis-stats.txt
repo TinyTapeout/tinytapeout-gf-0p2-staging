@@ -1,0 +1,142 @@
+152. Printing statistics.
+
+=== clock_divider_stage ===
+
+   Number of wires:                  4
+   Number of wire bits:              4
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of ports:                  3
+   Number of port bits:              3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      1
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1      1
+
+   Chip area for module '\clock_divider_stage': 72.441600
+     of which used for sequential elements: 63.660800 (87.88%)
+
+=== inverter ===
+
+   Number of wires:                  2
+   Number of wire bits:              2
+   Number of public wires:           2
+   Number of public wire bits:       2
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      1
+
+   Chip area for module '\inverter': 8.780800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tt_um_urish_simon ===
+
+   Number of wires:               1376
+   Number of wire bits:           1411
+   Number of public wires:         218
+   Number of public wire bits:     253
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1392
+     clock_divider_stage            13
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     41
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     16
+     gf180mcu_fd_sc_mcu7t5v0__and4_1      7
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     13
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    114
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     11
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1      1
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     36
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      2
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    115
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1    195
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      7
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1    224
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     54
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1     29
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    120
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     40
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     25
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     46
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    118
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     10
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1      1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     19
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     11
+     gf180mcu_fd_sc_mcu7t5v0__or4_1      6
+     gf180mcu_fd_sc_mcu7t5v0__tieh      7
+     gf180mcu_fd_sc_mcu7t5v0__tiel      2
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     15
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1     69
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1      6
+     inverter                       13
+
+   Area for cell type \inverter is unknown!
+   Area for cell type \clock_divider_stage is unknown!
+
+   Chip area for module '\tt_um_urish_simon': 31764.544000
+     of which used for sequential elements: 12413.856000 (39.08%)
+
+=== design hierarchy ===
+
+   tt_um_urish_simon                 1
+     clock_divider_stage            13
+     inverter                       13
+
+   Number of wires:               1454
+   Number of wire bits:           1489
+   Number of public wires:         283
+   Number of public wire bits:     318
+   Number of ports:                 73
+   Number of port bits:            108
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1405
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     41
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     16
+     gf180mcu_fd_sc_mcu7t5v0__and4_1      7
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     13
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    114
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     11
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1      1
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     36
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      2
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    141
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1    208
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      7
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1    224
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     54
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1     29
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    120
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     40
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     25
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     46
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    118
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     10
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1      1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     19
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     11
+     gf180mcu_fd_sc_mcu7t5v0__or4_1      6
+     gf180mcu_fd_sc_mcu7t5v0__tieh      7
+     gf180mcu_fd_sc_mcu7t5v0__tiel      2
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     15
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1     69
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1      6
+
+   Chip area for top module '\tt_um_urish_simon': 32820.435200
+     of which used for sequential elements: 0.000000 (0.00%)
+
